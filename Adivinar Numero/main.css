@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+
+.jumbotron {
+    background: #C6FFDD; 
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
+    font-family: 'Courgette', cursive;
+
+}    
+
+h3, h4 {
+    font-family: 'Courgette', cursive;
+}
+
+.btn {
+  margin-left: 5px;
+  background: #C6FFDD; 
+  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
+  font-family: 'Courgette', cursive;
+  color:black;
+}
+
+.btn :hover {
+    color:black;
+}
