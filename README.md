@@ -1,4 +1,4 @@
 # Mis-juegos
 Ejercicios JS
 
-http://gabrielath.games.io/
+https://gabrielath.github.io/Mis-juegos/.
