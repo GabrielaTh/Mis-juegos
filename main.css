@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
+body{
+	background-color: black;
+}
+
+.jumbotron {
+	background-image: url(./img/room2.jpg);
+	background-position: center;
+	color:rgb(250, 250, 250);
+	background-size: cover;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+.border-cover {
+	border: aliceblue 2px solid;
+	font-family: 'Lobster Two', cursive;
+	padding: 10px;
+}
+
+.btn {
+	margin: 3px;
+}
+
+@-webkit-keyframes
+ appear {
+	 0% { 
+		 opacity: 0;
+		 margin-left: -25%;
+		}
+	100% {opacity: 1;}
+ }
+
+@keyframes appear {
+	0% {
+		opacity: 0;
+		margin-left: -25%;
+	}
+	100% { opacity: 1; }
+}
+
+.image {
+	position: absolute;
+	width: 250px;
+	height: 350px;
+}
+
+.image-1 {
+	-webkit-animation: appear 1s;
+	animation: appear 1s;
+	z-index: 1;
+}
+
+.image-1:hover {
+	z-index: 10;
+}
+/*por todos*/
+
+.image-1 { 
+	transition: all 2s;
+}
+
+.image-1:hover {
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
